@@ -17,8 +17,8 @@ var window: UIWindow?
         // Override point for customization after application launch.
         self.window = UIWindow(frame: UIScreen.main.bounds)
         self.window?.backgroundColor = .white
-        let imageEdit = SLShotViewController()
-//        imageEdit.image = UIImage(named: "1234")!
+        let imageEdit = SLEditImageController()
+        imageEdit.image = UIImage(named: "1234")!
         imageEdit.modalPresentationStyle = .fullScreen
         self.window?.rootViewController = imageEdit
         self.window?.makeKeyAndVisible()

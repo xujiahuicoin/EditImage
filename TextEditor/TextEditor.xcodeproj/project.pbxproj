@@ -12,89 +12,27 @@
 		AA8A3BA924E4F1A600849232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3BA724E4F1A600849232 /* Main.storyboard */; };
 		AA8A3BAB24E4F1A700849232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3BAA24E4F1A700849232 /* Assets.xcassets */; };
 		AA8A3BAE24E4F1A700849232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3BAC24E4F1A700849232 /* LaunchScreen.storyboard */; };
-		AA8A3C6024E4F23300849232 /* SLBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BBD24E4F23200849232 /* SLBlurView.m */; };
-		AA8A3C6124E4F23300849232 /* SLPaddingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BBE24E4F23200849232 /* SLPaddingLabel.m */; };
-		AA8A3C6324E4F23300849232 /* SLAvWriterInput.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BC324E4F23200849232 /* SLAvWriterInput.m */; };
-		AA8A3C6424E4F23300849232 /* SLAvEditExport.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BC424E4F23200849232 /* SLAvEditExport.m */; };
-		AA8A3C6524E4F23300849232 /* SLAvCaptureTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BC524E4F23200849232 /* SLAvCaptureTool.m */; };
-		AA8A3C6624E4F23300849232 /* SLAvPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BCA24E4F23200849232 /* SLAvPlayer.m */; };
-		AA8A3C6724E4F23300849232 /* SLAvCaptureSession.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BCC24E4F23200849232 /* SLAvCaptureSession.m */; };
-		AA8A3C6824E4F23300849232 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8A3BCE24E4F23200849232 /* WebP.framework */; };
-		AA8A3C6924E4F23300849232 /* SLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BD024E4F23200849232 /* SLImageView.m */; };
-		AA8A3C6A24E4F23300849232 /* SLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BD124E4F23200849232 /* SLImage.m */; };
-		AA8A3C6B24E4F23300849232 /* SLImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BD224E4F23200849232 /* SLImageDecoder.m */; };
-		AA8A3C6C24E4F23300849232 /* SLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BD824E4F23300849232 /* SLProxy.m */; };
-		AA8A3C6D24E4F23300849232 /* SLTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BD924E4F23300849232 /* SLTimer.m */; };
-		AA8A3C6E24E4F23300849232 /* SLMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BDA24E4F23300849232 /* SLMethod.m */; };
-		AA8A3C6F24E4F23300849232 /* SLDelayPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BDB24E4F23300849232 /* SLDelayPerform.m */; };
-		AA8A3C7324E4F23300849232 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BE824E4F23300849232 /* GLESUtils.m */; };
-		AA8A3C7424E4F23300849232 /* GLESMath.c in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BEA24E4F23300849232 /* GLESMath.c */; };
-		AA8A3C7524E4F23300849232 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BEF24E4F23300849232 /* fishhook.c */; };
-		AA8A3C7624E4F23300849232 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BF024E4F23300849232 /* queue.c */; };
-		AA8A3C7824E4F23300849232 /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BF824E4F23300849232 /* BSBacktraceLogger.m */; };
-		AA8A3C7924E4F23300849232 /* UIColor+SLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BFA24E4F23300849232 /* UIColor+SLCommon.m */; };
-		AA8A3C7A24E4F23300849232 /* UIView+SLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BFC24E4F23300849232 /* UIView+SLFrame.m */; };
-		AA8A3C7B24E4F23300849232 /* WKWebView+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BFD24E4F23300849232 /* WKWebView+SLExtension.m */; };
-		AA8A3C7C24E4F23300849232 /* UIScrollView+SLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BFE24E4F23300849232 /* UIScrollView+SLCommon.m */; };
-		AA8A3C7D24E4F23300849232 /* UIButton+SLTitleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3BFF24E4F23300849232 /* UIButton+SLTitleImage.m */; };
-		AA8A3C7F24E4F23300849232 /* UIView+SLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C0624E4F23300849232 /* UIView+SLImage.m */; };
-		AA8A3C8024E4F23300849232 /* UIImage+SLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C0724E4F23300849232 /* UIImage+SLCommon.m */; };
-		AA8A3C8124E4F23300849232 /* SLShaderFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C0D24E4F23300849232 /* SLShaderFilterViewController.m */; };
-		AA8A3C8224E4F23300849232 /* SLCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C0F24E4F23300849232 /* SLCubeViewController.m */; };
-		AA8A3C8324E4F23300849232 /* SLGLKPyramidVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C1124E4F23300849232 /* SLGLKPyramidVC.m */; };
-		AA8A3C8424E4F23300849232 /* SLShaderLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C1324E4F23300849232 /* SLShaderLanguageViewController.m */; };
-		AA8A3C8524E4F23300849232 /* SLSpecialEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C1524E4F23300849232 /* SLSpecialEffectsViewController.m */; };
-		AA8A3C8624E4F23300849232 /* SLSplitScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C1624E4F23300849232 /* SLSplitScreenViewController.m */; };
-		AA8A3C8724E4F23300849232 /* SLOpenGLController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C1724E4F23300849232 /* SLOpenGLController.m */; };
-		AA8A3C8824E4F23300849232 /* SLSplitScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C1924E4F23300849232 /* SLSplitScreenCell.m */; };
-		AA8A3C8924E4F23300849232 /* SLMixColorTextureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C1A24E4F23300849232 /* SLMixColorTextureVC.m */; };
-		AA8A3C8A24E4F23300849232 /* SLLoadImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C1E24E4F23300849232 /* SLLoadImageVC.m */; };
-		AA8A3C8B24E4F23300849232 /* SLShaderCubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C2124E4F23300849232 /* SLShaderCubeViewController.m */; };
-		AA8A3C8C24E4F23300849232 /* Cirlce.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2324E4F23300849232 /* Cirlce.vsh */; };
-		AA8A3C8D24E4F23300849232 /* Gray.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2424E4F23300849232 /* Gray.vsh */; };
-		AA8A3C8E24E4F23300849232 /* shaderf.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2524E4F23300849232 /* shaderf.fsh */; };
-		AA8A3C8F24E4F23300849232 /* SplitScreen_9.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2624E4F23300849232 /* SplitScreen_9.vsh */; };
-		AA8A3C9024E4F23300849232 /* Scale.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2724E4F23300849232 /* Scale.vsh */; };
-		AA8A3C9124E4F23300849232 /* HexagonMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2824E4F23300849232 /* HexagonMosaic.fsh */; };
-		AA8A3C9224E4F23300849232 /* Shake.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2924E4F23300849232 /* Shake.fsh */; };
-		AA8A3C9324E4F23300849232 /* Glitch.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2A24E4F23300849232 /* Glitch.vsh */; };
-		AA8A3C9424E4F23300849232 /* Mosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2B24E4F23300849232 /* Mosaic.vsh */; };
-		AA8A3C9524E4F23300849232 /* SoulOut.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2C24E4F23300849232 /* SoulOut.vsh */; };
-		AA8A3C9624E4F23300849232 /* SplitScreen_1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2D24E4F23300849232 /* SplitScreen_1.fsh */; };
-		AA8A3C9724E4F23300849232 /* SplitScreen_2.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2E24E4F23300849232 /* SplitScreen_2.fsh */; };
-		AA8A3C9824E4F23300849232 /* SplitScreen_16.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C2F24E4F23300849232 /* SplitScreen_16.vsh */; };
-		AA8A3C9924E4F23300849232 /* SplitScreen_3.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3024E4F23300849232 /* SplitScreen_3.fsh */; };
-		AA8A3C9A24E4F23300849232 /* SplitScreen_6.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3124E4F23300849232 /* SplitScreen_6.fsh */; };
-		AA8A3C9B24E4F23300849232 /* SplitScreen_4.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3224E4F23300849232 /* SplitScreen_4.fsh */; };
-		AA8A3C9C24E4F23300849232 /* SplitScreen_9.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3324E4F23300849232 /* SplitScreen_9.fsh */; };
-		AA8A3C9D24E4F23300849232 /* HexagonMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3424E4F23300849232 /* HexagonMosaic.vsh */; };
-		AA8A3C9E24E4F23300849232 /* Scale.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3524E4F23300849232 /* Scale.fsh */; };
-		AA8A3C9F24E4F23300849232 /* SoulOut.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3624E4F23300849232 /* SoulOut.fsh */; };
-		AA8A3CA024E4F23300849232 /* Mosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3724E4F23300849232 /* Mosaic.fsh */; };
-		AA8A3CA124E4F23300849232 /* Glitch.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3824E4F23300849232 /* Glitch.fsh */; };
-		AA8A3CA224E4F23300849232 /* Shake.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3924E4F23300849232 /* Shake.vsh */; };
-		AA8A3CA324E4F23300849232 /* Cirlce.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3A24E4F23300849232 /* Cirlce.fsh */; };
-		AA8A3CA424E4F23300849232 /* shaderv.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3B24E4F23300849232 /* shaderv.vsh */; };
-		AA8A3CA524E4F23300849232 /* Gray.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3C24E4F23300849232 /* Gray.fsh */; };
-		AA8A3CA624E4F23300849232 /* SplitScreen_6.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3D24E4F23300849232 /* SplitScreen_6.vsh */; };
-		AA8A3CA724E4F23300849232 /* SplitScreen_4.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3E24E4F23300849232 /* SplitScreen_4.vsh */; };
-		AA8A3CA824E4F23300849232 /* SplitScreen_1.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C3F24E4F23300849232 /* SplitScreen_1.vsh */; };
-		AA8A3CA924E4F23300849232 /* SplitScreen_2.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C4024E4F23300849232 /* SplitScreen_2.vsh */; };
-		AA8A3CAA24E4F23300849232 /* SplitScreen_3.vsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C4124E4F23300849232 /* SplitScreen_3.vsh */; };
-		AA8A3CAB24E4F23300849232 /* SplitScreen_16.fsh in Resources */ = {isa = PBXBuildFile; fileRef = AA8A3C4224E4F23300849232 /* SplitScreen_16.fsh */; };
-		AA8A3CAC24E4F23300849232 /* SLImageClipController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C4524E4F23300849232 /* SLImageClipController.m */; };
-		AA8A3CAD24E4F23300849232 /* SLEditVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C4724E4F23300849232 /* SLEditVideoController.m */; };
-		AA8A3CAE24E4F23300849232 /* SLEditImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C4824E4F23300849232 /* SLEditImageController.m */; };
-		AA8A3CAF24E4F23300849232 /* SLShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C4B24E4F23300849232 /* SLShotViewController.m */; };
-		AA8A3CB024E4F23300849232 /* SLGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C4D24E4F23300849232 /* SLGridView.m */; };
-		AA8A3CB124E4F23300849232 /* SLEditTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C4E24E4F23300849232 /* SLEditTextView.m */; };
-		AA8A3CB224E4F23300849232 /* SLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C4F24E4F23300849232 /* SLDrawView.m */; };
-		AA8A3CB324E4F23300849232 /* SLEditMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C5024E4F23300849232 /* SLEditMenuView.m */; };
-		AA8A3CB424E4F23300849232 /* SLShotFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C5424E4F23300849232 /* SLShotFocusView.m */; };
-		AA8A3CB524E4F23300849232 /* SLMosaicView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C5524E4F23300849232 /* SLMosaicView.m */; };
-		AA8A3CB624E4F23300849232 /* SLImageZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C5924E4F23300849232 /* SLImageZoomView.m */; };
-		AA8A3CB724E4F23300849232 /* SLEditVideoClipping.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C5B24E4F23300849232 /* SLEditVideoClipping.m */; };
-		AA8A3CB824E4F23300849232 /* SLEditSelectedBox.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3C5C24E4F23300849232 /* SLEditSelectedBox.m */; };
+		AA8A3CE124E518A300849232 /* SLBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CBE24E518A300849232 /* SLBlurView.m */; };
+		AA8A3CE224E518A300849232 /* SLPaddingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CBF24E518A300849232 /* SLPaddingLabel.m */; };
+		AA8A3CE324E518A300849232 /* UIColor+SLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CC324E518A300849232 /* UIColor+SLCommon.m */; };
+		AA8A3CE424E518A300849232 /* UIView+SLFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CC424E518A300849232 /* UIView+SLFrame.m */; };
+		AA8A3CE524E518A300849232 /* UIView+SLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CC924E518A300849232 /* UIView+SLImage.m */; };
+		AA8A3CE624E518A300849232 /* UIImage+SLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CCA24E518A300849232 /* UIImage+SLCommon.m */; };
+		AA8A3CE724E518A300849232 /* SLImageClipController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CCD24E518A300849232 /* SLImageClipController.m */; };
+		AA8A3CE824E518A400849232 /* SLEditImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CCE24E518A300849232 /* SLEditImageController.m */; };
+		AA8A3CE924E518A400849232 /* SLGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CD124E518A300849232 /* SLGridView.m */; };
+		AA8A3CEA24E518A400849232 /* SLEditTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CD224E518A300849232 /* SLEditTextView.m */; };
+		AA8A3CEB24E518A400849232 /* SLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CD324E518A300849232 /* SLDrawView.m */; };
+		AA8A3CEC24E518A400849232 /* SLEditMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CD424E518A300849232 /* SLEditMenuView.m */; };
+		AA8A3CED24E518A400849232 /* SLMosaicView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CD824E518A300849232 /* SLMosaicView.m */; };
+		AA8A3CEE24E518A400849232 /* SLImageZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CDC24E518A300849232 /* SLImageZoomView.m */; };
+		AA8A3CEF24E518A400849232 /* SLEditVideoClipping.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CDE24E518A300849232 /* SLEditVideoClipping.m */; };
+		AA8A3CF024E518A400849232 /* SLEditSelectedBox.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CDF24E518A300849232 /* SLEditSelectedBox.m */; };
+		AA8A3CF824E518FD00849232 /* SLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CF324E518FD00849232 /* SLImageView.m */; };
+		AA8A3CF924E518FD00849232 /* SLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CF424E518FD00849232 /* SLImage.m */; };
+		AA8A3CFE24E519BD00849232 /* SLImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3CFC24E519BD00849232 /* SLImageDecoder.m */; };
+		AA8A3CFF24E519BD00849232 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8A3CFD24E519BD00849232 /* WebP.framework */; };
+		AA8A3D0224E51A5500849232 /* SLDelayPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8A3D0124E51A5500849232 /* SLDelayPerform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,142 +46,48 @@
 		AA8A3BAD24E4F1A700849232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA8A3BAF24E4F1A700849232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8A3BB524E4F23200849232 /* brige-brige.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "brige-brige.h"; sourceTree = "<group>"; };
-		AA8A3BBB24E4F23200849232 /* SLPaddingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPaddingLabel.h; sourceTree = "<group>"; };
-		AA8A3BBD24E4F23200849232 /* SLBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBlurView.m; sourceTree = "<group>"; };
-		AA8A3BBE24E4F23200849232 /* SLPaddingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPaddingLabel.m; sourceTree = "<group>"; };
-		AA8A3BC124E4F23200849232 /* SLBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBlurView.h; sourceTree = "<group>"; };
-		AA8A3BC324E4F23200849232 /* SLAvWriterInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvWriterInput.m; sourceTree = "<group>"; };
-		AA8A3BC424E4F23200849232 /* SLAvEditExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvEditExport.m; sourceTree = "<group>"; };
-		AA8A3BC524E4F23200849232 /* SLAvCaptureTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvCaptureTool.m; sourceTree = "<group>"; };
-		AA8A3BC624E4F23200849232 /* SLAvPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvPlayer.h; sourceTree = "<group>"; };
-		AA8A3BC724E4F23200849232 /* SLAvCaptureSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvCaptureSession.h; sourceTree = "<group>"; };
-		AA8A3BC824E4F23200849232 /* SLAvEditExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvEditExport.h; sourceTree = "<group>"; };
-		AA8A3BC924E4F23200849232 /* SLAvWriterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvWriterInput.h; sourceTree = "<group>"; };
-		AA8A3BCA24E4F23200849232 /* SLAvPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvPlayer.m; sourceTree = "<group>"; };
-		AA8A3BCB24E4F23200849232 /* SLAvCaptureTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLAvCaptureTool.h; sourceTree = "<group>"; };
-		AA8A3BCC24E4F23200849232 /* SLAvCaptureSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLAvCaptureSession.m; sourceTree = "<group>"; };
-		AA8A3BCE24E4F23200849232 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
-		AA8A3BCF24E4F23200849232 /* SLImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageDecoder.h; sourceTree = "<group>"; };
-		AA8A3BD024E4F23200849232 /* SLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageView.m; sourceTree = "<group>"; };
-		AA8A3BD124E4F23200849232 /* SLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImage.m; sourceTree = "<group>"; };
-		AA8A3BD224E4F23200849232 /* SLImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageDecoder.m; sourceTree = "<group>"; };
-		AA8A3BD324E4F23200849232 /* SLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImage.h; sourceTree = "<group>"; };
-		AA8A3BD424E4F23200849232 /* SLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageView.h; sourceTree = "<group>"; };
-		AA8A3BD824E4F23300849232 /* SLProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLProxy.m; sourceTree = "<group>"; };
-		AA8A3BD924E4F23300849232 /* SLTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTimer.m; sourceTree = "<group>"; };
-		AA8A3BDA24E4F23300849232 /* SLMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMethod.m; sourceTree = "<group>"; };
-		AA8A3BDB24E4F23300849232 /* SLDelayPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDelayPerform.m; sourceTree = "<group>"; };
-		AA8A3BDE24E4F23300849232 /* SLTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTimer.h; sourceTree = "<group>"; };
-		AA8A3BDF24E4F23300849232 /* SLMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMethod.h; sourceTree = "<group>"; };
-		AA8A3BE024E4F23300849232 /* SLProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLProxy.h; sourceTree = "<group>"; };
-		AA8A3BE324E4F23300849232 /* SLDelayPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDelayPerform.h; sourceTree = "<group>"; };
-		AA8A3BE524E4F23300849232 /* HeaderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTool.h; sourceTree = "<group>"; };
-		AA8A3BE824E4F23300849232 /* GLESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
-		AA8A3BE924E4F23300849232 /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quaternion.h; sourceTree = "<group>"; };
-		AA8A3BEA24E4F23300849232 /* GLESMath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GLESMath.c; sourceTree = "<group>"; };
-		AA8A3BEB24E4F23300849232 /* GLESUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
-		AA8A3BEC24E4F23300849232 /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector.h; sourceTree = "<group>"; };
-		AA8A3BED24E4F23300849232 /* GLESMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLESMath.h; sourceTree = "<group>"; };
-		AA8A3BEF24E4F23300849232 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
-		AA8A3BF024E4F23300849232 /* queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
-		AA8A3BF124E4F23300849232 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
-		AA8A3BF224E4F23300849232 /* queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
-		AA8A3BF724E4F23300849232 /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
-		AA8A3BF824E4F23300849232 /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
-		AA8A3BFA24E4F23300849232 /* UIColor+SLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SLCommon.m"; sourceTree = "<group>"; };
-		AA8A3BFC24E4F23300849232 /* UIView+SLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLFrame.m"; sourceTree = "<group>"; };
-		AA8A3BFD24E4F23300849232 /* WKWebView+SLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+SLExtension.m"; sourceTree = "<group>"; };
-		AA8A3BFE24E4F23300849232 /* UIScrollView+SLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SLCommon.m"; sourceTree = "<group>"; };
-		AA8A3BFF24E4F23300849232 /* UIButton+SLTitleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SLTitleImage.m"; sourceTree = "<group>"; };
-		AA8A3C0024E4F23300849232 /* UIImage+SLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SLCommon.h"; sourceTree = "<group>"; };
-		AA8A3C0124E4F23300849232 /* UIView+SLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLImage.h"; sourceTree = "<group>"; };
-		AA8A3C0224E4F23300849232 /* UIColor+SLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SLCommon.h"; sourceTree = "<group>"; };
-		AA8A3C0424E4F23300849232 /* WKWebView+SLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+SLExtension.h"; sourceTree = "<group>"; };
-		AA8A3C0524E4F23300849232 /* UIView+SLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLFrame.h"; sourceTree = "<group>"; };
-		AA8A3C0624E4F23300849232 /* UIView+SLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLImage.m"; sourceTree = "<group>"; };
-		AA8A3C0724E4F23300849232 /* UIImage+SLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SLCommon.m"; sourceTree = "<group>"; };
-		AA8A3C0824E4F23300849232 /* UIButton+SLTitleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SLTitleImage.h"; sourceTree = "<group>"; };
-		AA8A3C0924E4F23300849232 /* UIScrollView+SLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SLCommon.h"; sourceTree = "<group>"; };
-		AA8A3C0C24E4F23300849232 /* SLOpenGLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLOpenGLController.h; sourceTree = "<group>"; };
-		AA8A3C0D24E4F23300849232 /* SLShaderFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShaderFilterViewController.m; sourceTree = "<group>"; };
-		AA8A3C0E24E4F23300849232 /* SLSplitScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSplitScreenCell.h; sourceTree = "<group>"; };
-		AA8A3C0F24E4F23300849232 /* SLCubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCubeViewController.m; sourceTree = "<group>"; };
-		AA8A3C1024E4F23300849232 /* SLMixColorTextureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMixColorTextureVC.h; sourceTree = "<group>"; };
-		AA8A3C1124E4F23300849232 /* SLGLKPyramidVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGLKPyramidVC.m; sourceTree = "<group>"; };
-		AA8A3C1224E4F23300849232 /* SLLoadImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLoadImageVC.h; sourceTree = "<group>"; };
-		AA8A3C1324E4F23300849232 /* SLShaderLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShaderLanguageViewController.m; sourceTree = "<group>"; };
-		AA8A3C1424E4F23300849232 /* SLShaderCubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShaderCubeViewController.h; sourceTree = "<group>"; };
-		AA8A3C1524E4F23300849232 /* SLSpecialEffectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSpecialEffectsViewController.m; sourceTree = "<group>"; };
-		AA8A3C1624E4F23300849232 /* SLSplitScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSplitScreenViewController.m; sourceTree = "<group>"; };
-		AA8A3C1724E4F23300849232 /* SLOpenGLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLOpenGLController.m; sourceTree = "<group>"; };
-		AA8A3C1824E4F23300849232 /* SLShaderFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShaderFilterViewController.h; sourceTree = "<group>"; };
-		AA8A3C1924E4F23300849232 /* SLSplitScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSplitScreenCell.m; sourceTree = "<group>"; };
-		AA8A3C1A24E4F23300849232 /* SLMixColorTextureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMixColorTextureVC.m; sourceTree = "<group>"; };
-		AA8A3C1B24E4F23300849232 /* SLCubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCubeViewController.h; sourceTree = "<group>"; };
-		AA8A3C1C24E4F23300849232 /* SLShaderLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShaderLanguageViewController.h; sourceTree = "<group>"; };
-		AA8A3C1D24E4F23300849232 /* SLGLKPyramidVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGLKPyramidVC.h; sourceTree = "<group>"; };
-		AA8A3C1E24E4F23300849232 /* SLLoadImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLoadImageVC.m; sourceTree = "<group>"; };
-		AA8A3C1F24E4F23300849232 /* SLSplitScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSplitScreenViewController.h; sourceTree = "<group>"; };
-		AA8A3C2024E4F23300849232 /* SLSpecialEffectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSpecialEffectsViewController.h; sourceTree = "<group>"; };
-		AA8A3C2124E4F23300849232 /* SLShaderCubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShaderCubeViewController.m; sourceTree = "<group>"; };
-		AA8A3C2324E4F23300849232 /* Cirlce.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Cirlce.vsh; sourceTree = "<group>"; };
-		AA8A3C2424E4F23300849232 /* Gray.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Gray.vsh; sourceTree = "<group>"; };
-		AA8A3C2524E4F23300849232 /* shaderf.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderf.fsh; sourceTree = "<group>"; };
-		AA8A3C2624E4F23300849232 /* SplitScreen_9.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_9.vsh; sourceTree = "<group>"; };
-		AA8A3C2724E4F23300849232 /* Scale.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Scale.vsh; sourceTree = "<group>"; };
-		AA8A3C2824E4F23300849232 /* HexagonMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HexagonMosaic.fsh; sourceTree = "<group>"; };
-		AA8A3C2924E4F23300849232 /* Shake.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shake.fsh; sourceTree = "<group>"; };
-		AA8A3C2A24E4F23300849232 /* Glitch.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Glitch.vsh; sourceTree = "<group>"; };
-		AA8A3C2B24E4F23300849232 /* Mosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Mosaic.vsh; sourceTree = "<group>"; };
-		AA8A3C2C24E4F23300849232 /* SoulOut.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SoulOut.vsh; sourceTree = "<group>"; };
-		AA8A3C2D24E4F23300849232 /* SplitScreen_1.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_1.fsh; sourceTree = "<group>"; };
-		AA8A3C2E24E4F23300849232 /* SplitScreen_2.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_2.fsh; sourceTree = "<group>"; };
-		AA8A3C2F24E4F23300849232 /* SplitScreen_16.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_16.vsh; sourceTree = "<group>"; };
-		AA8A3C3024E4F23300849232 /* SplitScreen_3.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_3.fsh; sourceTree = "<group>"; };
-		AA8A3C3124E4F23300849232 /* SplitScreen_6.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_6.fsh; sourceTree = "<group>"; };
-		AA8A3C3224E4F23300849232 /* SplitScreen_4.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_4.fsh; sourceTree = "<group>"; };
-		AA8A3C3324E4F23300849232 /* SplitScreen_9.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_9.fsh; sourceTree = "<group>"; };
-		AA8A3C3424E4F23300849232 /* HexagonMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = HexagonMosaic.vsh; sourceTree = "<group>"; };
-		AA8A3C3524E4F23300849232 /* Scale.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Scale.fsh; sourceTree = "<group>"; };
-		AA8A3C3624E4F23300849232 /* SoulOut.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SoulOut.fsh; sourceTree = "<group>"; };
-		AA8A3C3724E4F23300849232 /* Mosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Mosaic.fsh; sourceTree = "<group>"; };
-		AA8A3C3824E4F23300849232 /* Glitch.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Glitch.fsh; sourceTree = "<group>"; };
-		AA8A3C3924E4F23300849232 /* Shake.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shake.vsh; sourceTree = "<group>"; };
-		AA8A3C3A24E4F23300849232 /* Cirlce.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Cirlce.fsh; sourceTree = "<group>"; };
-		AA8A3C3B24E4F23300849232 /* shaderv.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shaderv.vsh; sourceTree = "<group>"; };
-		AA8A3C3C24E4F23300849232 /* Gray.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Gray.fsh; sourceTree = "<group>"; };
-		AA8A3C3D24E4F23300849232 /* SplitScreen_6.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_6.vsh; sourceTree = "<group>"; };
-		AA8A3C3E24E4F23300849232 /* SplitScreen_4.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_4.vsh; sourceTree = "<group>"; };
-		AA8A3C3F24E4F23300849232 /* SplitScreen_1.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_1.vsh; sourceTree = "<group>"; };
-		AA8A3C4024E4F23300849232 /* SplitScreen_2.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_2.vsh; sourceTree = "<group>"; };
-		AA8A3C4124E4F23300849232 /* SplitScreen_3.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_3.vsh; sourceTree = "<group>"; };
-		AA8A3C4224E4F23300849232 /* SplitScreen_16.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SplitScreen_16.fsh; sourceTree = "<group>"; };
-		AA8A3C4424E4F23300849232 /* SLEditImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditImageController.h; sourceTree = "<group>"; };
-		AA8A3C4524E4F23300849232 /* SLImageClipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageClipController.m; sourceTree = "<group>"; };
-		AA8A3C4624E4F23300849232 /* SLShotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShotViewController.h; sourceTree = "<group>"; };
-		AA8A3C4724E4F23300849232 /* SLEditVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditVideoController.m; sourceTree = "<group>"; };
-		AA8A3C4824E4F23300849232 /* SLEditImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditImageController.m; sourceTree = "<group>"; };
-		AA8A3C4924E4F23300849232 /* SLImageClipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageClipController.h; sourceTree = "<group>"; };
-		AA8A3C4A24E4F23300849232 /* SLEditVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditVideoController.h; sourceTree = "<group>"; };
-		AA8A3C4B24E4F23300849232 /* SLShotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShotViewController.m; sourceTree = "<group>"; };
-		AA8A3C4D24E4F23300849232 /* SLGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGridView.m; sourceTree = "<group>"; };
-		AA8A3C4E24E4F23300849232 /* SLEditTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditTextView.m; sourceTree = "<group>"; };
-		AA8A3C4F24E4F23300849232 /* SLDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawView.m; sourceTree = "<group>"; };
-		AA8A3C5024E4F23300849232 /* SLEditMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditMenuView.m; sourceTree = "<group>"; };
-		AA8A3C5124E4F23300849232 /* SLImageZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageZoomView.h; sourceTree = "<group>"; };
-		AA8A3C5224E4F23300849232 /* SLEditSelectedBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditSelectedBox.h; sourceTree = "<group>"; };
-		AA8A3C5324E4F23300849232 /* SLEditVideoClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditVideoClipping.h; sourceTree = "<group>"; };
-		AA8A3C5424E4F23300849232 /* SLShotFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShotFocusView.m; sourceTree = "<group>"; };
-		AA8A3C5524E4F23300849232 /* SLMosaicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMosaicView.m; sourceTree = "<group>"; };
-		AA8A3C5624E4F23300849232 /* SLDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawView.h; sourceTree = "<group>"; };
-		AA8A3C5724E4F23300849232 /* SLGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGridView.h; sourceTree = "<group>"; };
-		AA8A3C5824E4F23300849232 /* SLEditTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditTextView.h; sourceTree = "<group>"; };
-		AA8A3C5924E4F23300849232 /* SLImageZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageZoomView.m; sourceTree = "<group>"; };
-		AA8A3C5A24E4F23300849232 /* SLEditMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditMenuView.h; sourceTree = "<group>"; };
-		AA8A3C5B24E4F23300849232 /* SLEditVideoClipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditVideoClipping.m; sourceTree = "<group>"; };
-		AA8A3C5C24E4F23300849232 /* SLEditSelectedBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditSelectedBox.m; sourceTree = "<group>"; };
-		AA8A3C5D24E4F23300849232 /* SLMosaicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMosaicView.h; sourceTree = "<group>"; };
-		AA8A3C5E24E4F23300849232 /* SLShotFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShotFocusView.h; sourceTree = "<group>"; };
+		AA8A3CBD24E518A300849232 /* SLPaddingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPaddingLabel.h; sourceTree = "<group>"; };
+		AA8A3CBE24E518A300849232 /* SLBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBlurView.m; sourceTree = "<group>"; };
+		AA8A3CBF24E518A300849232 /* SLPaddingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPaddingLabel.m; sourceTree = "<group>"; };
+		AA8A3CC024E518A300849232 /* SLBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBlurView.h; sourceTree = "<group>"; };
+		AA8A3CC124E518A300849232 /* HeaderTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTool.h; sourceTree = "<group>"; };
+		AA8A3CC324E518A300849232 /* UIColor+SLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SLCommon.m"; sourceTree = "<group>"; };
+		AA8A3CC424E518A300849232 /* UIView+SLFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLFrame.m"; sourceTree = "<group>"; };
+		AA8A3CC524E518A300849232 /* UIImage+SLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SLCommon.h"; sourceTree = "<group>"; };
+		AA8A3CC624E518A300849232 /* UIView+SLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLImage.h"; sourceTree = "<group>"; };
+		AA8A3CC724E518A300849232 /* UIColor+SLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SLCommon.h"; sourceTree = "<group>"; };
+		AA8A3CC824E518A300849232 /* UIView+SLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLFrame.h"; sourceTree = "<group>"; };
+		AA8A3CC924E518A300849232 /* UIView+SLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLImage.m"; sourceTree = "<group>"; };
+		AA8A3CCA24E518A300849232 /* UIImage+SLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SLCommon.m"; sourceTree = "<group>"; };
+		AA8A3CCC24E518A300849232 /* SLEditImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditImageController.h; sourceTree = "<group>"; };
+		AA8A3CCD24E518A300849232 /* SLImageClipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageClipController.m; sourceTree = "<group>"; };
+		AA8A3CCE24E518A300849232 /* SLEditImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditImageController.m; sourceTree = "<group>"; };
+		AA8A3CCF24E518A300849232 /* SLImageClipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageClipController.h; sourceTree = "<group>"; };
+		AA8A3CD124E518A300849232 /* SLGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGridView.m; sourceTree = "<group>"; };
+		AA8A3CD224E518A300849232 /* SLEditTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditTextView.m; sourceTree = "<group>"; };
+		AA8A3CD324E518A300849232 /* SLDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawView.m; sourceTree = "<group>"; };
+		AA8A3CD424E518A300849232 /* SLEditMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditMenuView.m; sourceTree = "<group>"; };
+		AA8A3CD524E518A300849232 /* SLImageZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageZoomView.h; sourceTree = "<group>"; };
+		AA8A3CD624E518A300849232 /* SLEditSelectedBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditSelectedBox.h; sourceTree = "<group>"; };
+		AA8A3CD724E518A300849232 /* SLEditVideoClipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditVideoClipping.h; sourceTree = "<group>"; };
+		AA8A3CD824E518A300849232 /* SLMosaicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMosaicView.m; sourceTree = "<group>"; };
+		AA8A3CD924E518A300849232 /* SLDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawView.h; sourceTree = "<group>"; };
+		AA8A3CDA24E518A300849232 /* SLGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGridView.h; sourceTree = "<group>"; };
+		AA8A3CDB24E518A300849232 /* SLEditTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditTextView.h; sourceTree = "<group>"; };
+		AA8A3CDC24E518A300849232 /* SLImageZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageZoomView.m; sourceTree = "<group>"; };
+		AA8A3CDD24E518A300849232 /* SLEditMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEditMenuView.h; sourceTree = "<group>"; };
+		AA8A3CDE24E518A300849232 /* SLEditVideoClipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditVideoClipping.m; sourceTree = "<group>"; };
+		AA8A3CDF24E518A300849232 /* SLEditSelectedBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEditSelectedBox.m; sourceTree = "<group>"; };
+		AA8A3CE024E518A300849232 /* SLMosaicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMosaicView.h; sourceTree = "<group>"; };
+		AA8A3CF324E518FD00849232 /* SLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageView.m; sourceTree = "<group>"; };
+		AA8A3CF424E518FD00849232 /* SLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImage.m; sourceTree = "<group>"; };
+		AA8A3CF624E518FD00849232 /* SLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImage.h; sourceTree = "<group>"; };
+		AA8A3CF724E518FD00849232 /* SLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageView.h; sourceTree = "<group>"; };
+		AA8A3CFB24E519BD00849232 /* SLImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLImageDecoder.h; sourceTree = "<group>"; };
+		AA8A3CFC24E519BD00849232 /* SLImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLImageDecoder.m; sourceTree = "<group>"; };
+		AA8A3CFD24E519BD00849232 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		AA8A3D0024E51A5400849232 /* SLDelayPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDelayPerform.h; sourceTree = "<group>"; };
+		AA8A3D0124E51A5500849232 /* SLDelayPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDelayPerform.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8A3C6824E4F23300849232 /* WebP.framework in Frameworks */,
+				AA8A3CFF24E519BD00849232 /* WebP.framework in Frameworks */,
 				2E1FD7FDC71E8031D23EFD90 /* libPods-TextEditor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,8 +132,8 @@
 		AA8A3BA024E4F1A600849232 /* TextEditor */ = {
 			isa = PBXGroup;
 			children = (
+				AA8A3CB924E518A300849232 /* SmallVideo */,
 				AA8A3BB524E4F23200849232 /* brige-brige.h */,
-				AA8A3BB624E4F23200849232 /* SmallVideo */,
 				AA8A3BA124E4F1A600849232 /* AppDelegate.swift */,
 				AA8A3BA724E4F1A600849232 /* Main.storyboard */,
 				AA8A3BAA24E4F1A700849232 /* Assets.xcassets */,
@@ -299,275 +143,93 @@
 			path = TextEditor;
 			sourceTree = "<group>";
 		};
-		AA8A3BB624E4F23200849232 /* SmallVideo */ = {
+		AA8A3CB924E518A300849232 /* SmallVideo */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A3BB724E4F23200849232 /* SLTool */,
-				AA8A3C4324E4F23300849232 /* Controller */,
-				AA8A3C4C24E4F23300849232 /* View */,
+				AA8A3CBA24E518A300849232 /* SLTool */,
+				AA8A3CCB24E518A300849232 /* Controller */,
+				AA8A3CD024E518A300849232 /* View */,
 			);
 			path = SmallVideo;
 			sourceTree = "<group>";
 		};
-		AA8A3BB724E4F23200849232 /* SLTool */ = {
+		AA8A3CBA24E518A300849232 /* SLTool */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A3BB824E4F23200849232 /* General */,
-				AA8A3BE524E4F23300849232 /* HeaderTool.h */,
-				AA8A3BE624E4F23300849232 /* ThirdLibary */,
-				AA8A3BF924E4F23300849232 /* SLCategory */,
-				AA8A3C0A24E4F23300849232 /* OpenGL */,
+				AA8A3CC124E518A300849232 /* HeaderTool.h */,
+				AA8A3D0024E51A5400849232 /* SLDelayPerform.h */,
+				AA8A3D0124E51A5500849232 /* SLDelayPerform.m */,
+				AA8A3CF124E518FD00849232 /* SLAnimateImageView */,
+				AA8A3CC224E518A300849232 /* SLCategory */,
 			);
 			path = SLTool;
 			sourceTree = "<group>";
 		};
-		AA8A3BB824E4F23200849232 /* General */ = {
+		AA8A3CC224E518A300849232 /* SLCategory */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A3BB924E4F23200849232 /* UI */,
-				AA8A3BC224E4F23200849232 /* AV */,
-				AA8A3BCD24E4F23200849232 /* SLAnimateImageView */,
-				AA8A3BD524E4F23200849232 /* Tool */,
-			);
-			path = General;
-			sourceTree = "<group>";
-		};
-		AA8A3BB924E4F23200849232 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3BC124E4F23200849232 /* SLBlurView.h */,
-				AA8A3BBD24E4F23200849232 /* SLBlurView.m */,
-				AA8A3BBB24E4F23200849232 /* SLPaddingLabel.h */,
-				AA8A3BBE24E4F23200849232 /* SLPaddingLabel.m */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		AA8A3BC224E4F23200849232 /* AV */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3BC724E4F23200849232 /* SLAvCaptureSession.h */,
-				AA8A3BCC24E4F23200849232 /* SLAvCaptureSession.m */,
-				AA8A3BCB24E4F23200849232 /* SLAvCaptureTool.h */,
-				AA8A3BC524E4F23200849232 /* SLAvCaptureTool.m */,
-				AA8A3BC824E4F23200849232 /* SLAvEditExport.h */,
-				AA8A3BC424E4F23200849232 /* SLAvEditExport.m */,
-				AA8A3BC624E4F23200849232 /* SLAvPlayer.h */,
-				AA8A3BCA24E4F23200849232 /* SLAvPlayer.m */,
-				AA8A3BC924E4F23200849232 /* SLAvWriterInput.h */,
-				AA8A3BC324E4F23200849232 /* SLAvWriterInput.m */,
-			);
-			path = AV;
-			sourceTree = "<group>";
-		};
-		AA8A3BCD24E4F23200849232 /* SLAnimateImageView */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3BD324E4F23200849232 /* SLImage.h */,
-				AA8A3BD124E4F23200849232 /* SLImage.m */,
-				AA8A3BCF24E4F23200849232 /* SLImageDecoder.h */,
-				AA8A3BD224E4F23200849232 /* SLImageDecoder.m */,
-				AA8A3BD424E4F23200849232 /* SLImageView.h */,
-				AA8A3BD024E4F23200849232 /* SLImageView.m */,
-				AA8A3BCE24E4F23200849232 /* WebP.framework */,
-			);
-			path = SLAnimateImageView;
-			sourceTree = "<group>";
-		};
-		AA8A3BD524E4F23200849232 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3BE324E4F23300849232 /* SLDelayPerform.h */,
-				AA8A3BDB24E4F23300849232 /* SLDelayPerform.m */,
-				AA8A3BDF24E4F23300849232 /* SLMethod.h */,
-				AA8A3BDA24E4F23300849232 /* SLMethod.m */,
-				AA8A3BE024E4F23300849232 /* SLProxy.h */,
-				AA8A3BD824E4F23300849232 /* SLProxy.m */,
-				AA8A3BDE24E4F23300849232 /* SLTimer.h */,
-				AA8A3BD924E4F23300849232 /* SLTimer.m */,
-			);
-			path = Tool;
-			sourceTree = "<group>";
-		};
-		AA8A3BE624E4F23300849232 /* ThirdLibary */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3BE724E4F23300849232 /* OpenGLUtils */,
-				AA8A3BEE24E4F23300849232 /* Fishhook */,
-				AA8A3BF624E4F23300849232 /* BSBacktraceLogger */,
-			);
-			path = ThirdLibary;
-			sourceTree = "<group>";
-		};
-		AA8A3BE724E4F23300849232 /* OpenGLUtils */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3BEA24E4F23300849232 /* GLESMath.c */,
-				AA8A3BED24E4F23300849232 /* GLESMath.h */,
-				AA8A3BEB24E4F23300849232 /* GLESUtils.h */,
-				AA8A3BE824E4F23300849232 /* GLESUtils.m */,
-				AA8A3BE924E4F23300849232 /* Quaternion.h */,
-				AA8A3BEC24E4F23300849232 /* Vector.h */,
-			);
-			path = OpenGLUtils;
-			sourceTree = "<group>";
-		};
-		AA8A3BEE24E4F23300849232 /* Fishhook */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3BEF24E4F23300849232 /* fishhook.c */,
-				AA8A3BF024E4F23300849232 /* queue.c */,
-				AA8A3BF124E4F23300849232 /* fishhook.h */,
-				AA8A3BF224E4F23300849232 /* queue.h */,
-			);
-			path = Fishhook;
-			sourceTree = "<group>";
-		};
-		AA8A3BF624E4F23300849232 /* BSBacktraceLogger */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3BF724E4F23300849232 /* BSBacktraceLogger.h */,
-				AA8A3BF824E4F23300849232 /* BSBacktraceLogger.m */,
-			);
-			path = BSBacktraceLogger;
-			sourceTree = "<group>";
-		};
-		AA8A3BF924E4F23300849232 /* SLCategory */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3C0824E4F23300849232 /* UIButton+SLTitleImage.h */,
-				AA8A3BFF24E4F23300849232 /* UIButton+SLTitleImage.m */,
-				AA8A3C0224E4F23300849232 /* UIColor+SLCommon.h */,
-				AA8A3BFA24E4F23300849232 /* UIColor+SLCommon.m */,
-				AA8A3C0024E4F23300849232 /* UIImage+SLCommon.h */,
-				AA8A3C0724E4F23300849232 /* UIImage+SLCommon.m */,
-				AA8A3C0924E4F23300849232 /* UIScrollView+SLCommon.h */,
-				AA8A3BFE24E4F23300849232 /* UIScrollView+SLCommon.m */,
-				AA8A3C0524E4F23300849232 /* UIView+SLFrame.h */,
-				AA8A3BFC24E4F23300849232 /* UIView+SLFrame.m */,
-				AA8A3C0124E4F23300849232 /* UIView+SLImage.h */,
-				AA8A3C0624E4F23300849232 /* UIView+SLImage.m */,
-				AA8A3C0424E4F23300849232 /* WKWebView+SLExtension.h */,
-				AA8A3BFD24E4F23300849232 /* WKWebView+SLExtension.m */,
+				AA8A3CC724E518A300849232 /* UIColor+SLCommon.h */,
+				AA8A3CC324E518A300849232 /* UIColor+SLCommon.m */,
+				AA8A3CC524E518A300849232 /* UIImage+SLCommon.h */,
+				AA8A3CCA24E518A300849232 /* UIImage+SLCommon.m */,
+				AA8A3CC824E518A300849232 /* UIView+SLFrame.h */,
+				AA8A3CC424E518A300849232 /* UIView+SLFrame.m */,
+				AA8A3CC624E518A300849232 /* UIView+SLImage.h */,
+				AA8A3CC924E518A300849232 /* UIView+SLImage.m */,
 			);
 			path = SLCategory;
 			sourceTree = "<group>";
 		};
-		AA8A3C0A24E4F23300849232 /* OpenGL */ = {
+		AA8A3CCB24E518A300849232 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A3C0B24E4F23300849232 /* Controller */,
-				AA8A3C2224E4F23300849232 /* ShaderLanguage */,
-			);
-			path = OpenGL;
-			sourceTree = "<group>";
-		};
-		AA8A3C0B24E4F23300849232 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3C1B24E4F23300849232 /* SLCubeViewController.h */,
-				AA8A3C0F24E4F23300849232 /* SLCubeViewController.m */,
-				AA8A3C1D24E4F23300849232 /* SLGLKPyramidVC.h */,
-				AA8A3C1124E4F23300849232 /* SLGLKPyramidVC.m */,
-				AA8A3C1224E4F23300849232 /* SLLoadImageVC.h */,
-				AA8A3C1E24E4F23300849232 /* SLLoadImageVC.m */,
-				AA8A3C1024E4F23300849232 /* SLMixColorTextureVC.h */,
-				AA8A3C1A24E4F23300849232 /* SLMixColorTextureVC.m */,
-				AA8A3C0C24E4F23300849232 /* SLOpenGLController.h */,
-				AA8A3C1724E4F23300849232 /* SLOpenGLController.m */,
-				AA8A3C1424E4F23300849232 /* SLShaderCubeViewController.h */,
-				AA8A3C2124E4F23300849232 /* SLShaderCubeViewController.m */,
-				AA8A3C1824E4F23300849232 /* SLShaderFilterViewController.h */,
-				AA8A3C0D24E4F23300849232 /* SLShaderFilterViewController.m */,
-				AA8A3C1C24E4F23300849232 /* SLShaderLanguageViewController.h */,
-				AA8A3C1324E4F23300849232 /* SLShaderLanguageViewController.m */,
-				AA8A3C2024E4F23300849232 /* SLSpecialEffectsViewController.h */,
-				AA8A3C1524E4F23300849232 /* SLSpecialEffectsViewController.m */,
-				AA8A3C0E24E4F23300849232 /* SLSplitScreenCell.h */,
-				AA8A3C1924E4F23300849232 /* SLSplitScreenCell.m */,
-				AA8A3C1F24E4F23300849232 /* SLSplitScreenViewController.h */,
-				AA8A3C1624E4F23300849232 /* SLSplitScreenViewController.m */,
+				AA8A3CCC24E518A300849232 /* SLEditImageController.h */,
+				AA8A3CCE24E518A300849232 /* SLEditImageController.m */,
+				AA8A3CCF24E518A300849232 /* SLImageClipController.h */,
+				AA8A3CCD24E518A300849232 /* SLImageClipController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		AA8A3C2224E4F23300849232 /* ShaderLanguage */ = {
+		AA8A3CD024E518A300849232 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				AA8A3C2324E4F23300849232 /* Cirlce.vsh */,
-				AA8A3C2424E4F23300849232 /* Gray.vsh */,
-				AA8A3C2524E4F23300849232 /* shaderf.fsh */,
-				AA8A3C2624E4F23300849232 /* SplitScreen_9.vsh */,
-				AA8A3C2724E4F23300849232 /* Scale.vsh */,
-				AA8A3C2824E4F23300849232 /* HexagonMosaic.fsh */,
-				AA8A3C2924E4F23300849232 /* Shake.fsh */,
-				AA8A3C2A24E4F23300849232 /* Glitch.vsh */,
-				AA8A3C2B24E4F23300849232 /* Mosaic.vsh */,
-				AA8A3C2C24E4F23300849232 /* SoulOut.vsh */,
-				AA8A3C2D24E4F23300849232 /* SplitScreen_1.fsh */,
-				AA8A3C2E24E4F23300849232 /* SplitScreen_2.fsh */,
-				AA8A3C2F24E4F23300849232 /* SplitScreen_16.vsh */,
-				AA8A3C3024E4F23300849232 /* SplitScreen_3.fsh */,
-				AA8A3C3124E4F23300849232 /* SplitScreen_6.fsh */,
-				AA8A3C3224E4F23300849232 /* SplitScreen_4.fsh */,
-				AA8A3C3324E4F23300849232 /* SplitScreen_9.fsh */,
-				AA8A3C3424E4F23300849232 /* HexagonMosaic.vsh */,
-				AA8A3C3524E4F23300849232 /* Scale.fsh */,
-				AA8A3C3624E4F23300849232 /* SoulOut.fsh */,
-				AA8A3C3724E4F23300849232 /* Mosaic.fsh */,
-				AA8A3C3824E4F23300849232 /* Glitch.fsh */,
-				AA8A3C3924E4F23300849232 /* Shake.vsh */,
-				AA8A3C3A24E4F23300849232 /* Cirlce.fsh */,
-				AA8A3C3B24E4F23300849232 /* shaderv.vsh */,
-				AA8A3C3C24E4F23300849232 /* Gray.fsh */,
-				AA8A3C3D24E4F23300849232 /* SplitScreen_6.vsh */,
-				AA8A3C3E24E4F23300849232 /* SplitScreen_4.vsh */,
-				AA8A3C3F24E4F23300849232 /* SplitScreen_1.vsh */,
-				AA8A3C4024E4F23300849232 /* SplitScreen_2.vsh */,
-				AA8A3C4124E4F23300849232 /* SplitScreen_3.vsh */,
-				AA8A3C4224E4F23300849232 /* SplitScreen_16.fsh */,
-			);
-			path = ShaderLanguage;
-			sourceTree = "<group>";
-		};
-		AA8A3C4324E4F23300849232 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3C4424E4F23300849232 /* SLEditImageController.h */,
-				AA8A3C4824E4F23300849232 /* SLEditImageController.m */,
-				AA8A3C4A24E4F23300849232 /* SLEditVideoController.h */,
-				AA8A3C4724E4F23300849232 /* SLEditVideoController.m */,
-				AA8A3C4924E4F23300849232 /* SLImageClipController.h */,
-				AA8A3C4524E4F23300849232 /* SLImageClipController.m */,
-				AA8A3C4624E4F23300849232 /* SLShotViewController.h */,
-				AA8A3C4B24E4F23300849232 /* SLShotViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		AA8A3C4C24E4F23300849232 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				AA8A3C5624E4F23300849232 /* SLDrawView.h */,
-				AA8A3C4F24E4F23300849232 /* SLDrawView.m */,
-				AA8A3C5A24E4F23300849232 /* SLEditMenuView.h */,
-				AA8A3C5024E4F23300849232 /* SLEditMenuView.m */,
-				AA8A3C5224E4F23300849232 /* SLEditSelectedBox.h */,
-				AA8A3C5C24E4F23300849232 /* SLEditSelectedBox.m */,
-				AA8A3C5824E4F23300849232 /* SLEditTextView.h */,
-				AA8A3C4E24E4F23300849232 /* SLEditTextView.m */,
-				AA8A3C5324E4F23300849232 /* SLEditVideoClipping.h */,
-				AA8A3C5B24E4F23300849232 /* SLEditVideoClipping.m */,
-				AA8A3C5724E4F23300849232 /* SLGridView.h */,
-				AA8A3C4D24E4F23300849232 /* SLGridView.m */,
-				AA8A3C5124E4F23300849232 /* SLImageZoomView.h */,
-				AA8A3C5924E4F23300849232 /* SLImageZoomView.m */,
-				AA8A3C5D24E4F23300849232 /* SLMosaicView.h */,
-				AA8A3C5524E4F23300849232 /* SLMosaicView.m */,
-				AA8A3C5E24E4F23300849232 /* SLShotFocusView.h */,
-				AA8A3C5424E4F23300849232 /* SLShotFocusView.m */,
+				AA8A3CC024E518A300849232 /* SLBlurView.h */,
+				AA8A3CBE24E518A300849232 /* SLBlurView.m */,
+				AA8A3CD924E518A300849232 /* SLDrawView.h */,
+				AA8A3CD324E518A300849232 /* SLDrawView.m */,
+				AA8A3CDD24E518A300849232 /* SLEditMenuView.h */,
+				AA8A3CD424E518A300849232 /* SLEditMenuView.m */,
+				AA8A3CD624E518A300849232 /* SLEditSelectedBox.h */,
+				AA8A3CDF24E518A300849232 /* SLEditSelectedBox.m */,
+				AA8A3CDB24E518A300849232 /* SLEditTextView.h */,
+				AA8A3CD224E518A300849232 /* SLEditTextView.m */,
+				AA8A3CD724E518A300849232 /* SLEditVideoClipping.h */,
+				AA8A3CDE24E518A300849232 /* SLEditVideoClipping.m */,
+				AA8A3CDA24E518A300849232 /* SLGridView.h */,
+				AA8A3CD124E518A300849232 /* SLGridView.m */,
+				AA8A3CD524E518A300849232 /* SLImageZoomView.h */,
+				AA8A3CDC24E518A300849232 /* SLImageZoomView.m */,
+				AA8A3CE024E518A300849232 /* SLMosaicView.h */,
+				AA8A3CD824E518A300849232 /* SLMosaicView.m */,
+				AA8A3CBD24E518A300849232 /* SLPaddingLabel.h */,
+				AA8A3CBF24E518A300849232 /* SLPaddingLabel.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		AA8A3CF124E518FD00849232 /* SLAnimateImageView */ = {
+			isa = PBXGroup;
+			children = (
+				AA8A3CFB24E519BD00849232 /* SLImageDecoder.h */,
+				AA8A3CFC24E519BD00849232 /* SLImageDecoder.m */,
+				AA8A3CFD24E519BD00849232 /* WebP.framework */,
+				AA8A3CF624E518FD00849232 /* SLImage.h */,
+				AA8A3CF424E518FD00849232 /* SLImage.m */,
+				AA8A3CF724E518FD00849232 /* SLImageView.h */,
+				AA8A3CF324E518FD00849232 /* SLImageView.m */,
+			);
+			path = SLAnimateImageView;
 			sourceTree = "<group>";
 		};
 		AD81DFAD250B0E2C80AEADF4 /* Pods */ = {
@@ -639,41 +301,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8A3C9024E4F23300849232 /* Scale.vsh in Resources */,
-				AA8A3CA924E4F23300849232 /* SplitScreen_2.vsh in Resources */,
-				AA8A3CAA24E4F23300849232 /* SplitScreen_3.vsh in Resources */,
-				AA8A3C9A24E4F23300849232 /* SplitScreen_6.fsh in Resources */,
-				AA8A3C9724E4F23300849232 /* SplitScreen_2.fsh in Resources */,
-				AA8A3CA424E4F23300849232 /* shaderv.vsh in Resources */,
-				AA8A3CAB24E4F23300849232 /* SplitScreen_16.fsh in Resources */,
-				AA8A3C9D24E4F23300849232 /* HexagonMosaic.vsh in Resources */,
-				AA8A3C9F24E4F23300849232 /* SoulOut.fsh in Resources */,
-				AA8A3C9524E4F23300849232 /* SoulOut.vsh in Resources */,
-				AA8A3C9824E4F23300849232 /* SplitScreen_16.vsh in Resources */,
 				AA8A3BAE24E4F1A700849232 /* LaunchScreen.storyboard in Resources */,
-				AA8A3C9224E4F23300849232 /* Shake.fsh in Resources */,
-				AA8A3CA324E4F23300849232 /* Cirlce.fsh in Resources */,
-				AA8A3C9624E4F23300849232 /* SplitScreen_1.fsh in Resources */,
-				AA8A3CA824E4F23300849232 /* SplitScreen_1.vsh in Resources */,
 				AA8A3BAB24E4F1A700849232 /* Assets.xcassets in Resources */,
-				AA8A3CA124E4F23300849232 /* Glitch.fsh in Resources */,
-				AA8A3C9124E4F23300849232 /* HexagonMosaic.fsh in Resources */,
-				AA8A3C8D24E4F23300849232 /* Gray.vsh in Resources */,
-				AA8A3CA024E4F23300849232 /* Mosaic.fsh in Resources */,
-				AA8A3C8E24E4F23300849232 /* shaderf.fsh in Resources */,
-				AA8A3CA524E4F23300849232 /* Gray.fsh in Resources */,
-				AA8A3C9C24E4F23300849232 /* SplitScreen_9.fsh in Resources */,
 				AA8A3BA924E4F1A600849232 /* Main.storyboard in Resources */,
-				AA8A3C8F24E4F23300849232 /* SplitScreen_9.vsh in Resources */,
-				AA8A3C9E24E4F23300849232 /* Scale.fsh in Resources */,
-				AA8A3CA224E4F23300849232 /* Shake.vsh in Resources */,
-				AA8A3CA724E4F23300849232 /* SplitScreen_4.vsh in Resources */,
-				AA8A3C9424E4F23300849232 /* Mosaic.vsh in Resources */,
-				AA8A3CA624E4F23300849232 /* SplitScreen_6.vsh in Resources */,
-				AA8A3C9924E4F23300849232 /* SplitScreen_3.fsh in Resources */,
-				AA8A3C9B24E4F23300849232 /* SplitScreen_4.fsh in Resources */,
-				AA8A3C8C24E4F23300849232 /* Cirlce.vsh in Resources */,
-				AA8A3C9324E4F23300849232 /* Glitch.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,57 +356,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA8A3C8324E4F23300849232 /* SLGLKPyramidVC.m in Sources */,
-				AA8A3C6424E4F23300849232 /* SLAvEditExport.m in Sources */,
-				AA8A3CAD24E4F23300849232 /* SLEditVideoController.m in Sources */,
-				AA8A3CB424E4F23300849232 /* SLShotFocusView.m in Sources */,
-				AA8A3CB324E4F23300849232 /* SLEditMenuView.m in Sources */,
-				AA8A3C6524E4F23300849232 /* SLAvCaptureTool.m in Sources */,
+				AA8A3CE824E518A400849232 /* SLEditImageController.m in Sources */,
+				AA8A3CEC24E518A400849232 /* SLEditMenuView.m in Sources */,
+				AA8A3CEF24E518A400849232 /* SLEditVideoClipping.m in Sources */,
+				AA8A3CE724E518A300849232 /* SLImageClipController.m in Sources */,
+				AA8A3CEA24E518A400849232 /* SLEditTextView.m in Sources */,
+				AA8A3CE424E518A300849232 /* UIView+SLFrame.m in Sources */,
+				AA8A3CF024E518A400849232 /* SLEditSelectedBox.m in Sources */,
+				AA8A3CF824E518FD00849232 /* SLImageView.m in Sources */,
+				AA8A3CE224E518A300849232 /* SLPaddingLabel.m in Sources */,
+				AA8A3CE624E518A300849232 /* UIImage+SLCommon.m in Sources */,
+				AA8A3CE324E518A300849232 /* UIColor+SLCommon.m in Sources */,
+				AA8A3CEB24E518A400849232 /* SLDrawView.m in Sources */,
+				AA8A3CF924E518FD00849232 /* SLImage.m in Sources */,
+				AA8A3CE124E518A300849232 /* SLBlurView.m in Sources */,
 				AA8A3BA224E4F1A600849232 /* AppDelegate.swift in Sources */,
-				AA8A3C7D24E4F23300849232 /* UIButton+SLTitleImage.m in Sources */,
-				AA8A3C8524E4F23300849232 /* SLSpecialEffectsViewController.m in Sources */,
-				AA8A3CAE24E4F23300849232 /* SLEditImageController.m in Sources */,
-				AA8A3C6024E4F23300849232 /* SLBlurView.m in Sources */,
-				AA8A3C7A24E4F23300849232 /* UIView+SLFrame.m in Sources */,
-				AA8A3C8B24E4F23300849232 /* SLShaderCubeViewController.m in Sources */,
-				AA8A3C6C24E4F23300849232 /* SLProxy.m in Sources */,
-				AA8A3C7F24E4F23300849232 /* UIView+SLImage.m in Sources */,
-				AA8A3C6724E4F23300849232 /* SLAvCaptureSession.m in Sources */,
-				AA8A3C6124E4F23300849232 /* SLPaddingLabel.m in Sources */,
-				AA8A3CB824E4F23300849232 /* SLEditSelectedBox.m in Sources */,
-				AA8A3CAF24E4F23300849232 /* SLShotViewController.m in Sources */,
-				AA8A3C7624E4F23300849232 /* queue.c in Sources */,
-				AA8A3CB624E4F23300849232 /* SLImageZoomView.m in Sources */,
-				AA8A3C7C24E4F23300849232 /* UIScrollView+SLCommon.m in Sources */,
-				AA8A3C8024E4F23300849232 /* UIImage+SLCommon.m in Sources */,
-				AA8A3C6924E4F23300849232 /* SLImageView.m in Sources */,
-				AA8A3C6D24E4F23300849232 /* SLTimer.m in Sources */,
-				AA8A3C6A24E4F23300849232 /* SLImage.m in Sources */,
-				AA8A3C7424E4F23300849232 /* GLESMath.c in Sources */,
-				AA8A3C6624E4F23300849232 /* SLAvPlayer.m in Sources */,
-				AA8A3CB224E4F23300849232 /* SLDrawView.m in Sources */,
-				AA8A3C7924E4F23300849232 /* UIColor+SLCommon.m in Sources */,
-				AA8A3C7B24E4F23300849232 /* WKWebView+SLExtension.m in Sources */,
-				AA8A3C6F24E4F23300849232 /* SLDelayPerform.m in Sources */,
-				AA8A3CB524E4F23300849232 /* SLMosaicView.m in Sources */,
-				AA8A3C6E24E4F23300849232 /* SLMethod.m in Sources */,
-				AA8A3CAC24E4F23300849232 /* SLImageClipController.m in Sources */,
-				AA8A3C8924E4F23300849232 /* SLMixColorTextureVC.m in Sources */,
-				AA8A3C7324E4F23300849232 /* GLESUtils.m in Sources */,
-				AA8A3C7524E4F23300849232 /* fishhook.c in Sources */,
-				AA8A3C8824E4F23300849232 /* SLSplitScreenCell.m in Sources */,
-				AA8A3C8A24E4F23300849232 /* SLLoadImageVC.m in Sources */,
-				AA8A3C8424E4F23300849232 /* SLShaderLanguageViewController.m in Sources */,
-				AA8A3CB724E4F23300849232 /* SLEditVideoClipping.m in Sources */,
-				AA8A3C8124E4F23300849232 /* SLShaderFilterViewController.m in Sources */,
-				AA8A3CB124E4F23300849232 /* SLEditTextView.m in Sources */,
-				AA8A3C7824E4F23300849232 /* BSBacktraceLogger.m in Sources */,
-				AA8A3C8624E4F23300849232 /* SLSplitScreenViewController.m in Sources */,
-				AA8A3C6324E4F23300849232 /* SLAvWriterInput.m in Sources */,
-				AA8A3C8224E4F23300849232 /* SLCubeViewController.m in Sources */,
-				AA8A3C8724E4F23300849232 /* SLOpenGLController.m in Sources */,
-				AA8A3C6B24E4F23300849232 /* SLImageDecoder.m in Sources */,
-				AA8A3CB024E4F23300849232 /* SLGridView.m in Sources */,
+				AA8A3D0224E51A5500849232 /* SLDelayPerform.m in Sources */,
+				AA8A3CE524E518A300849232 /* UIView+SLImage.m in Sources */,
+				AA8A3CE924E518A400849232 /* SLGridView.m in Sources */,
+				AA8A3CED24E518A400849232 /* SLMosaicView.m in Sources */,
+				AA8A3CEE24E518A400849232 /* SLImageZoomView.m in Sources */,
+				AA8A3CFE24E519BD00849232 /* SLImageDecoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,6 +526,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TextEditor/SmallVideo/SLTool/General/SLAnimateImageView",
+					"$(PROJECT_DIR)/TextEditor/SmallVideo/SLTool/SLAnimateImageView",
 				);
 				INFOPLIST_FILE = TextEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -950,6 +551,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TextEditor/SmallVideo/SLTool/General/SLAnimateImageView",
+					"$(PROJECT_DIR)/TextEditor/SmallVideo/SLTool/SLAnimateImageView",
 				);
 				INFOPLIST_FILE = TextEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

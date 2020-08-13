@@ -300,13 +300,33 @@
 - (void)setEditObject:(SLEditObject)editObject {
     _editObject = editObject;
     if (editObject == SLEditObjectPicture) {
-        _menuTypes = @[@(SLEditMenuTypeGraffiti), @(SLEditMenuTypeSticking), @(SLEditMenuTypeText),@(SLEditMenuTypePictureMosaic), @(SLEditMenuTypePictureClipping)];
-        _imageNames = @[@"EditMenuGraffiti", @"EditMenuSticker", @"EditMenuText", @"EditMenuMosaic", @"EditMenuClipImage"];
-        _imageNamesSelected = @[@"EditMenuGraffitiSelected", @"EditMenuStickerSelected", @"EditMenuText",@"EditMenuMosaicSelected",@"EditMenuClipImage"];
+        _menuTypes = @[@(SLEditMenuTypeGraffiti),
+                       //@(SLEditMenuTypeSticking),
+                       @(SLEditMenuTypeText),
+                       @(SLEditMenuTypePictureMosaic),
+                       @(SLEditMenuTypePictureClipping)];
+        _imageNames = @[@"EditMenuGraffiti",
+//                        @"EditMenuSticker",
+                        @"EditMenuText",
+                        @"EditMenuMosaic",
+                        @"EditMenuClipImage"];
+        _imageNamesSelected = @[@"EditMenuGraffitiSelected", //@"EditMenuStickerSelected",
+                                @"EditMenuText",
+                                @"EditMenuMosaicSelected",
+                                @"EditMenuClipImage"];
     }else if (editObject == SLEditObjectVideo) {
-        _menuTypes = @[@(SLEditMenuTypeGraffiti), @(SLEditMenuTypeSticking), @(SLEditMenuTypeText), @(SLEditMenuTypeVideoClipping)];
-        _imageNames = @[@"EditMenuGraffiti", @"EditMenuSticker", @"EditMenuText", @"EditMenuCut"];
-        _imageNamesSelected = @[@"EditMenuGraffitiSelected", @"EditMenuStickerSelected", @"EditMenuText", @"EditMenuCut"];
+        _menuTypes = @[@(SLEditMenuTypeGraffiti),
+                       //@(SLEditMenuTypeSticking),
+                       @(SLEditMenuTypeText),
+                       @(SLEditMenuTypeVideoClipping)];
+        _imageNames = @[@"EditMenuGraffiti",
+                        //@"EditMenuSticker",
+                        @"EditMenuText",
+                        @"EditMenuCut"];
+        _imageNamesSelected = @[@"EditMenuGraffitiSelected",
+                                //@"EditMenuStickerSelected",
+                                @"EditMenuText",
+                                @"EditMenuCut"];
     }
     [self createEditMenus];
 }

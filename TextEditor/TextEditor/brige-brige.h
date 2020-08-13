@@ -9,8 +9,6 @@
 
 #ifndef brige_brige_h
 #define brige_brige_h
-#import "SLShotViewController.h"
-#import "SLEditVideoController.h"
 #import "SLEditImageController.h"
 
 #endif /* brige_brige_h */

@@ -462,6 +462,7 @@
     [self.selectedBox removeFromSuperview];
     self.image = [self.zoomView.imageView sl_imageByViewInRect:self.zoomView.imageView.bounds];
     [self cancleEditBtnClicked:nil];
+    
 }
 // 点击水印视图
 - (void)singleTapAction:(UITapGestureRecognizer *)singleTap {
