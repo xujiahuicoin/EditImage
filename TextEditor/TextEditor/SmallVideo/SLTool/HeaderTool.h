@@ -28,5 +28,4 @@
 
 #import "UIView+SLFrame.h"
 #import "SLDelayPerform.h"
-#import "Masonry.h"
 #endif /* HeaderTool_h */
